@@ -3,13 +3,12 @@ import Navbar from './components/Navbar';
 import './App.css';
 import News from './components/News';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,  // ✅ Use HashRouter instead of BrowserRouter
   Routes,
   Route,
 } from 'react-router-dom';
 
 class App extends Component {
-
   render() {
     return (
       <div>
